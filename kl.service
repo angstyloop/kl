@@ -1,0 +1,8 @@
+[Unit]
+Description = kl
+
+[Service]
+ExecStart = /bin/kl
+
+[Install]
+WantedBy = multi-user.target
